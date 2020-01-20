@@ -1,4 +1,4 @@
-# Semantic_Human_Matting
+# Semantic Human Matting
 This repo is folked from https://github.com/lizhengwei1992/Semantic_Human_Matting, which is an wonderful implementation of paper ([Semantatic Human Matting](https://arxiv.org/abs/1809.01354)) from Alibaba. I added codes for data preparation. Dataset got available as the [company](http://www.aisegment.com) released their [dataset](https://github.com/aisegmentcn/matting_human_datasets), but you need to relocate the image locations to run the code, generate text files with image names, and last but not the least, generate binary masks for train images.
 
 # Requirements
