@@ -35,10 +35,10 @@ Semantic_Human_Matting
 
 ## Step 1: prepare dataset
 <p align="left">
-<img src="https://github.com/jihwan1008/Semantic_Human_Matting/raw/master/Reference.png" width="400" height="300">
+<img src="https://github.com/jihwan1008/Semantic_Human_Matting/raw/master/Reference.png" width="267" height="200">
 </p>
 <p align="right">
-<img src="https://github.com/jihwan1008/Semantic_Human_Matting/raw/master/Mask.png" width="400" height="300">
+<img src="https://github.com/jihwan1008/Semantic_Human_Matting/raw/master/Mask.png" width="267" height="200">
 </p>
 ```./data/train.txt``` contain image names according to 6k+ images(```./data/image```) and corresponding masks(```./data/mask```). 
 
