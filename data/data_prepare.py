@@ -16,7 +16,6 @@ else:
     os.mkdir(tmp_dir)
 
 file_1 = sorted(os.listdir(default_train))
-#print(len(file_1))
 
 tmp_list = []
 tmp_list_ = []
