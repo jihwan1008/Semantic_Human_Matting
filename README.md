@@ -40,10 +40,10 @@ Training Image             |  Binary Mask
 :-------------------------:|:-------------------------:
 ![Ref](https://github.com/jihwan1008/Semantic_Human_Matting/raw/master/Reference.png)  |  ![Mask](https://github.com/jihwan1008/Semantic_Human_Matting/raw/master/Mask.png)
 
-```./data/train.txt``` contain image names according to 6k+ images(```./data/image```) and corresponding masks(```./data/mask```).
-
 Go to ```./data``` and run ```data_prepare.py```.
-It will create two new directories and text files named as ```image```, ```mask```, ```train.txt```, and ```mask.txt``` respectively.
+It will create two new directories and text files named as ```image```, ```mask```, ```train.txt```, and ```mask.txt``` respectively at ```./data```.
+```image``` folder is for training images and ```mask``` is for binary mask images that are corresponding to traing images.
+File name of training images and mask images will be written on ```train.txt``` and ```mask.txt```.
 
 Use ```./data/gen_trimap.sh``` to get trimaps of the masks.
 
