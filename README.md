@@ -1,14 +1,5 @@
 # Semantic_Human_Matting
-The project is my reimplement of paper ([Semantatic Human Matting](https://arxiv.org/abs/1809.01354)) from Alibaba,  it proposes a new end-to-end scheme to predict human alpha from image. SHM is the first algorithm that learns to jointly fit both semantic information and high quality details with deep networks. 
-
-One of the main contributions of the paper is that: ***A large scale high quality human matting dataset is created. It contains 35,513 unique human images with corresponding alpha mattes***. But, the dataset is not avaiable. 
-
-
-I collected 6k+ images as my dataset of the project. Worth noting that, the architecture of my network, which builded with mobilenet and shallow encoder-decoder net, is a light version compaired to original implement. 
-
-# update 2019/04/08 
-:thumbsup: :thumbsup: The company [***爱分割***](http://www.aisegment.com) shared their [dataset](https://github.com/aisegmentcn/matting_human_datasets) recently !
-
+This repo is folked from https://github.com/lizhengwei1992/Semantic_Human_Matting, which is an wonderful implementation of paper ([Semantatic Human Matting](https://arxiv.org/abs/1809.01354)) from Alibaba. I added codes for data preparation. Dataset got available as the company(http://www.aisegment.com) released their [dataset](https://github.com/aisegmentcn/matting_human_datasets), but you need to relocate the image locations to run the code, generate text files with image names, and last but not the least, generate binary masks for train images.
 
 # Requirements
 - python3.5 / 3.6
