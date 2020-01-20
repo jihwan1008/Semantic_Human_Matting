@@ -36,6 +36,8 @@ Semantic Human Matting
 
 ## Step 1: prepare dataset
 
+First, you need to download dataset from [kaggle](https://www.kaggle.com/laurentmih/aisegmentcom-matting-human-datasets/data#) and put it in ```./data```. File size is about 16GB, so make sure you have enough disk space available for it beforehand.
+
 Training Image             |  Binary Mask
 :-------------------------:|:-------------------------:
 ![Ref](https://github.com/jihwan1008/Semantic_Human_Matting/raw/master/Reference.png)  |  ![Mask](https://github.com/jihwan1008/Semantic_Human_Matting/raw/master/Mask.png)
