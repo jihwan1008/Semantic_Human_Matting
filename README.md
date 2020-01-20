@@ -22,7 +22,7 @@ Semantic Human Matting
 │   │   T_Net.py
 │   │   network.py
 └───data
-    |	data_prepary.py
+    |	data_prepare.py
     │   dataset.py
     │   gen_trimap.py
     |   gen_trimap.sh
