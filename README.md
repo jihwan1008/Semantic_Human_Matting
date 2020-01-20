@@ -35,6 +35,8 @@ Semantic_Human_Matting
 
 ## Step 1: prepare dataset
 
+![Ref](https://github.com/jihwan1008/Semantic_Human_Matting/raw/master/Reference.png)
+
 ```./data/train.txt``` contain image names according to 6k+ images(```./data/image```) and corresponding masks(```./data/mask```). 
 
 Use ```./data/gen_trimap.sh``` to get trimaps of the masks.
