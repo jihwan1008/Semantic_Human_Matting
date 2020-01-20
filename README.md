@@ -11,7 +11,7 @@ This repo is folked from https://github.com/lizhengwei1992/Semantic_Human_Mattin
 Directory structure of the project is as follows:
 It is almost identical with parent branch execpt few images and python file I added.
 ```
-Semantic_Human_Matting
+Semantic Human Matting
 │   README.md
 │   train.py
 │   train.sh
@@ -22,6 +22,7 @@ Semantic_Human_Matting
 │   │   T_Net.py
 │   │   network.py
 └───data
+    |	data_prepary.py
     │   dataset.py
     │   gen_trimap.py
     |   gen_trimap.sh
