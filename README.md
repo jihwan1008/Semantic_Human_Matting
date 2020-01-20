@@ -8,7 +8,8 @@ This repo is folked from https://github.com/lizhengwei1992/Semantic_Human_Mattin
 
 # Usage
 
-Directory structure of the project:
+Directory structure of the project is as follows:
+It is almost identical with parent branch execpt few images and python file I added.
 ```
 Semantic_Human_Matting
 │   README.md
