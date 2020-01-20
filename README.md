@@ -40,6 +40,11 @@ Semantic_Human_Matting
 <p align="right">
 <img src="https://github.com/jihwan1008/Semantic_Human_Matting/raw/master/Mask.png" width="267" height="200">
 </p>
+
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![Ref](https://github.com/jihwan1008/Semantic_Human_Matting/raw/master/Reference.png)  |  ![Mask](https://github.com/jihwan1008/Semantic_Human_Matting/raw/master/Mask.png)
+
 ```./data/train.txt``` contain image names according to 6k+ images(```./data/image```) and corresponding masks(```./data/mask```). 
 
 Use ```./data/gen_trimap.sh``` to get trimaps of the masks.
