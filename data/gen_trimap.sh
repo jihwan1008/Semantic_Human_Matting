@@ -7,4 +7,4 @@ fi
 python3 gen_trimap.py \
 	--mskDir=./mask \
 	--saveDir=./trimap \
-	--list=./mask.txt --size=10	
+	--list=./train.txt --size=10	
