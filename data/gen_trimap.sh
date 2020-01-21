@@ -1,7 +1,10 @@
 
 ROOT=./
-
+DIRECTORY="$ROOT"trimap
+if [ ! -d "$DIRECTORY" ]; then
+	mkdir trimap	  
+fi
 python3 gen_trimap.py \
-	--mskDir=$ROOT/mask \
-	--saveDir=$ROOT/trimap \
+	--mskDir=./mask \
+	--saveDir=./trimap \
 	--list=./mask.txt --size=10	
