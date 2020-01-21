@@ -4,7 +4,9 @@ This repo is folked from https://github.com/lizhengwei1992/Semantic_Human_Mattin
 # Requirements
 - python3.5 / 3.6
 - pytorch >= 0.4
-- opencv-python
+- opencv-contrib-python==4.1.2.30
+- opencv-python==3.4.1.15
+- tqdm==4.41.1
 
 # Usage
 
