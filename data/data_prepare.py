@@ -63,14 +63,15 @@ for item in file_1:
         for blob in tqdm(file_3):
             blob_ = blob[:-4] + '.png'
             tmp_list_.append(blob_)
+            img = cv2.imread(default_mat + item + '/' + elem + '/' + blob)
             #Load image with -1 to enforce image to have 4 channels(BRGA)
-            img = cv2.imread(default_mat + item + '/' + elem + '/' + blob, cv2.IMREAD_UNCHANGED)
+            #img = cv2.imread(default_mat + item + '/' + elem + '/' + blob, cv2.IMREAD_UNCHANGED)
             #Alpha channel mask to convert the transparent part to white
             #https://stackoverflow.com/questions/48816703/opencv-turn-transparent-part-of-png-white
-            alpha = img[:,:,3]
-            _, m = cv2.threshold(alpha, 254, 255, cv2.THRESH_BINARY)
-            color = img[:,:,:3]
-            img = cv2.bitwise_not(cv2.bitwise_not(color, mask=m))
+            #alpha = img[:,:,3]
+            #_, m = cv2.threshold(alpha, 254, 255, cv2.THRESH_BINARY)
+            #color = img[:,:,:3]
+            #img = cv2.bitwise_not(cv2.bitwise_not(color, mask=m))
             #print(img.shape)
             mask = np.full((img.shape[0], img.shape[1], img.shape[2]), 0, dtype=np.uint8)
             for i in range(img.shape[0]):
